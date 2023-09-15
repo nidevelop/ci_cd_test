@@ -23,7 +23,7 @@ function App() {
       });
   }, []); // 빈 의존성 배열을 사용하여 컴포넌트 마운트 시 한 번만 실행
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div>Loading... 업데이트 확인</div>;
   if (error) return <div>Error: {error.message}</div>;
 
   return (
